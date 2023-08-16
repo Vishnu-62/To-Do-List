@@ -1,0 +1,7 @@
+CREATE TABLE tasks (
+  task_id INT AUTO_INCREMENT PRIMARY KEY,
+  task_text VARCHAR(255) NOT NULL,
+  from_time TIME NOT NULL,
+  to_time TIME NOT NULL,
+  status INT NOT NULL DEFAULT 0
+);
